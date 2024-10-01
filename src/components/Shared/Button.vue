@@ -6,11 +6,11 @@
 
 <style scoped></style>
 <script setup lang="ts">
-import { defineProps } from "vue";
-defineProps(["type"]);
-const emit = defineEmits(["clickBtn"]);
+import { defineProps } from 'vue';
+defineProps(['type']);
+const emit = defineEmits(['clickBtn']);
 
 const btnClick = () => {
-    emit("clickBtn");
+    emit('clickBtn');
 };
 </script>
