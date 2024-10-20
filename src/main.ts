@@ -17,10 +17,11 @@ import {
     faMagnifyingGlass,
     faMinus,
     faPlus,
+    faAngleDown
 } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faMinus, faPlus);
+library.add(faMagnifyingGlass, faMinus, faPlus, faAngleDown);
 
 createApp(App)
     .use(router)
