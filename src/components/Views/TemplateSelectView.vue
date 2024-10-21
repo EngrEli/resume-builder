@@ -1,6 +1,6 @@
 <template>
     <EditorHeader />
-    <div class="flex bg-[#1e2532]">
+    <div class="flex bg-[#1e2532] h-full">
         <ResumeListSection />
         <div>wew</div>
     </div>
