@@ -5,12 +5,13 @@ import EditorView from "@/components/Views/EditorView.vue";
 
 const routes = [
     {
-        path: "/",
+        // path: "/",
+        path: "/template-select",
         name: "TemplateSelectView",
         component: TemplateSelectView,
     },
     {
-        path: "/editor",
+        path: "/",
         name: "EditorView",
         component: EditorView,
     },

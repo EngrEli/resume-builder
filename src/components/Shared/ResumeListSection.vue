@@ -1,5 +1,8 @@
 <template>
-    <div class="h-full w-[400px] border border-y-0 border-l-0 border-[#FFF] flex flex-wrap justify-between p-8">
+    <div
+        class="flex w-[410px] flex-wrap justify-between overflow-y-auto border border-y-0 border-l-0 border-r-[rgba(255,255,255,0.15)] p-8"
+    >
+        <ResumeCards />
         <ResumeCards />
         <ResumeCards />
         <ResumeCards />

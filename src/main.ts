@@ -4,6 +4,7 @@ import "./assets/reset.css";
 import "./assets/main.css";
 
 import { createApp } from "vue";
+import { createPinia } from 'pinia'
 import App from "./App.vue";
 import router from "./router";
 
@@ -24,7 +25,10 @@ import {
 /* add icons to the library */
 library.add(faMagnifyingGlass, faMinus, faPlus, faAngleDown);
 
+const pinia = createPinia()
+
 createApp(App)
     .use(router)
+    .use(pinia)
     .component("font-awesome-icon", FontAwesomeIcon)
     .mount("#app");

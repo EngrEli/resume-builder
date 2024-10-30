@@ -1,5 +1,8 @@
 <template>
-    <div class="h-16 bg-[#0f141e] text-[white]">
+    <div
+        class="flex min-h-16 items-center justify-between bg-[#0f141e] px-8 text-[white]"
+    >
+        <div>Back to Editor</div>
         <LineSpacingEditor />
         <Button type="btn-primary" @click-btn="testFunc">Download PDF</Button>
     </div>

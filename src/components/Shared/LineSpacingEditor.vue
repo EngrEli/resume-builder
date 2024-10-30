@@ -1,7 +1,10 @@
 <template>
-    <font-awesome-icon :icon="['fas', 'minus']" />
-    Aa
-    <font-awesome-icon :icon="['fas', 'plus']" />
+    <div>
+        <font-awesome-icon :icon="['fas', 'minus']" />
+        Aa
+        <font-awesome-icon :icon="['fas', 'plus']" />
+    </div>
+    
 </template>
 
 <style scoped></style>
